@@ -1,0 +1,20 @@
+/*letra del score*/
+/*esto sive para añadir una letra, use fontfabric*/
+@font-face {
+    font-family: 'pixel-regular';
+    src: url('recursos/Pixer-Regular.woff2') format('woff2'), /* formato WOFF2 */
+         url('recursos/Pixer-Regular.woff') format('woff'); /* formato WOFF */
+}
+/*valores generales*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*color del fondo*/
+canvas {
+    background: black;
+    display: block;
+    margin: 0 auto;
+    height: 100vh; 
+    width: 100vw;
+}
